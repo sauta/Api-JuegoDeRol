@@ -25,11 +25,9 @@ class Nivele extends Model
 {
 	protected $table = 'niveles';
 	protected $primaryKey = 'ID_NIVEL';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_NIVEL' => 'int',
 		'EXPERIENCIA_REQUERIDA' => 'int'
 	];
 

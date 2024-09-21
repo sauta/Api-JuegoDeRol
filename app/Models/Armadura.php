@@ -34,11 +34,9 @@ class Armadura extends Model
 {
 	protected $table = 'armaduras';
 	protected $primaryKey = 'ID_ARMADURA';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_ARMADURA' => 'int',
 		'ID_TIPO_ARMA' => 'int',
 		'NIVEL_REQUERIDO' => 'int',
 		'DEFENSA' => 'int',

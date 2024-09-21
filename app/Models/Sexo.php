@@ -23,12 +23,7 @@ class Sexo extends Model
 {
 	protected $table = 'sexos';
 	protected $primaryKey = 'ID_SEXO';
-	public $incrementing = false;
 	public $timestamps = false;
-
-	protected $casts = [
-		'ID_SEXO' => 'int'
-	];
 
 	protected $fillable = [
 		'SEXO'

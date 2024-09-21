@@ -31,11 +31,9 @@ class Hechizo extends Model
 {
 	protected $table = 'hechizos';
 	protected $primaryKey = 'ID_HECHIZO';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_HECHIZO' => 'int',
 		'VELOCIDAD_DE_HECHIZO' => 'int',
 		'DANO_MAGICO' => 'int',
 		'ALCANCE' => 'int',

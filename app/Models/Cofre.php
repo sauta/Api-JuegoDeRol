@@ -27,11 +27,9 @@ class Cofre extends Model
 {
 	protected $table = 'cofres';
 	protected $primaryKey = 'ID_COFRE';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_COFRE' => 'int',
 		'ID_UBICACION' => 'int',
 		'FECHA_CREACION' => 'datetime',
 		'FECHA_SAQUEO' => 'datetime'

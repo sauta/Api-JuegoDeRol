@@ -34,11 +34,9 @@ class Misione extends Model
 {
 	protected $table = 'misiones';
 	protected $primaryKey = 'ID_MISION';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_MISION' => 'int',
 		'EXPERIENCIA' => 'int',
 		'DIFICULTAD' => 'int',
 		'ID_ENEMIGO' => 'int',

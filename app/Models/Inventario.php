@@ -25,11 +25,9 @@ class Inventario extends Model
 {
 	protected $table = 'inventarios';
 	protected $primaryKey = 'ID_INVENTARIO';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_INVENTARIO' => 'int',
 		'CAPACIDAD_CARGA' => 'int',
 		'ID_PERSONAJE' => 'int'
 	];

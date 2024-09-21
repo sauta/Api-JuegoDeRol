@@ -33,11 +33,9 @@ class Transporte extends Model
 {
 	protected $table = 'transportes';
 	protected $primaryKey = 'ID_TRANSPORTE';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_TRANSPORTE' => 'int',
 		'VELOCIDAD' => 'int',
 		'CAPACIDAD_ALMACEN' => 'int',
 		'ID_TIPO_TRANSPORTE' => 'int',

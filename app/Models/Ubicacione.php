@@ -36,11 +36,9 @@ class Ubicacione extends Model
 {
 	protected $table = 'ubicaciones';
 	protected $primaryKey = 'ID_UBICACION';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_UBICACION' => 'int',
 		'NUMERO' => 'int',
 		'POSTAL' => 'int',
 		'ID_CIUDAD' => 'int',

@@ -26,11 +26,9 @@ class Elemento extends Model
 {
 	protected $table = 'elementos';
 	protected $primaryKey = 'ID_ELEMENTO';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_ELEMENTO' => 'int',
 		'ID_ELEMENTO_DEBIL' => 'int',
 		'ID_ELEMENTO_FUERTE' => 'int'
 	];

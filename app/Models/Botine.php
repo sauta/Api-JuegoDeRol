@@ -27,11 +27,9 @@ class Botine extends Model
 {
 	protected $table = 'botines';
 	protected $primaryKey = 'ID_BOTIN';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_BOTIN' => 'int',
 		'ID_MISION' => 'int',
 		'FECHA_SAQUEO' => 'datetime'
 	];

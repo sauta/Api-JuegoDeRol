@@ -26,12 +26,7 @@ class TipoDeArma extends Model
 {
 	protected $table = 'tipo_de_armas';
 	protected $primaryKey = 'ID_TIPO_ARMA';
-	public $incrementing = false;
 	public $timestamps = false;
-
-	protected $casts = [
-		'ID_TIPO_ARMA' => 'int'
-	];
 
 	protected $fillable = [
 		'TIPO_DE_ARMA',

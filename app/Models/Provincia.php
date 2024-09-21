@@ -26,11 +26,9 @@ class Provincia extends Model
 {
 	protected $table = 'provincias';
 	protected $primaryKey = 'ID_PROVINCIA';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_PROVINCIA' => 'int',
 		'CAPITAL_PROVINCIA' => 'int',
 		'ID_REGION' => 'int'
 	];

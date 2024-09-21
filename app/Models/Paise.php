@@ -27,11 +27,9 @@ class Paise extends Model
 {
 	protected $table = 'paises';
 	protected $primaryKey = 'ID_PAIS';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_PAIS' => 'int',
 		'ID_REY' => 'int',
 		'ID_MAPA' => 'int'
 	];

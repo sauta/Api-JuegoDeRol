@@ -28,11 +28,9 @@ class Materiale extends Model
 {
 	protected $table = 'materiales';
 	protected $primaryKey = 'ID_MATERIAL';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_MATERIAL' => 'int',
 		'ID_MATERIAL_DEBIL' => 'int',
 		'ID_MATERIAL_FUERTE' => 'int',
 		'ID_ELEMENTO_DEBIL' => 'int',

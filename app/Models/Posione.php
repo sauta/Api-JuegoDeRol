@@ -26,11 +26,9 @@ class Posione extends Model
 {
 	protected $table = 'posiones';
 	protected $primaryKey = 'ID_POSION';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_POSION' => 'int',
 		'NIVEL_REQUERIDO' => 'int',
 		'REGENERA_MANA' => 'int',
 		'REGENERA_VIDA' => 'int'

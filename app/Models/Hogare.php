@@ -37,11 +37,9 @@ class Hogare extends Model
 {
 	protected $table = 'hogares';
 	protected $primaryKey = 'ID_HOGAR';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_HOGAR' => 'int',
 		'ID_PROPIETARIO' => 'int',
 		'CAPACIDAD_BODEGAJATE' => 'int',
 		'ID_UBICACION' => 'int',

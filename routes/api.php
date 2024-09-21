@@ -14,7 +14,6 @@ use App\Http\Controllers\ClaseController;
 use App\Http\Controllers\CofreController;
 use App\Http\Controllers\CompatibilidadeController;
 use App\Http\Controllers\ConocimientoController;
-use App\Http\Controllers\Controller;
 use App\Http\Controllers\ElementoController;
 use App\Http\Controllers\EquipoController;
 use App\Http\Controllers\HechizoController;

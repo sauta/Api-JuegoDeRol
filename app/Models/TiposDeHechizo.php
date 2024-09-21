@@ -27,11 +27,9 @@ class TiposDeHechizo extends Model
 {
 	protected $table = 'tipos_de_hechizos';
 	protected $primaryKey = 'ID_TIPO_HECHIZO';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_TIPO_HECHIZO' => 'int',
 		'ID_ELEMENTO' => 'int'
 	];
 

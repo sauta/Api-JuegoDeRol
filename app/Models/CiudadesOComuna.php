@@ -28,11 +28,9 @@ class CiudadesOComuna extends Model
 {
 	protected $table = 'ciudades_o_comunas';
 	protected $primaryKey = 'ID_CIUDAD';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_CIUDAD' => 'int',
 		'ID_ALCALDE' => 'int',
 		'ID_PROVINCIA' => 'int',
 		'ID_TERRENO' => 'int'

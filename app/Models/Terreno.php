@@ -25,12 +25,7 @@ class Terreno extends Model
 {
 	protected $table = 'terrenos';
 	protected $primaryKey = 'ID_TERRENO';
-	public $incrementing = false;
 	public $timestamps = false;
-
-	protected $casts = [
-		'ID_TERRENO' => 'int'
-	];
 
 	protected $fillable = [
 		'TERRENO',

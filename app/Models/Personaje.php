@@ -68,11 +68,9 @@ class Personaje extends Model
 {
 	protected $table = 'personajes';
 	protected $primaryKey = 'ID_PERSONAJE';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_PERSONAJE' => 'int',
 		'VIDA' => 'int',
 		'MANA' => 'int',
 		'VIDA_MAX' => 'int',

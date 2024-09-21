@@ -26,12 +26,7 @@ class Mapa extends Model
 {
 	protected $table = 'mapas';
 	protected $primaryKey = 'ID_MAPA';
-	public $incrementing = false;
 	public $timestamps = false;
-
-	protected $casts = [
-		'ID_MAPA' => 'int'
-	];
 
 	protected $fillable = [
 		'ID_OBJETO',

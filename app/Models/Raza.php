@@ -35,11 +35,9 @@ class Raza extends Model
 {
 	protected $table = 'razas';
 	protected $primaryKey = 'ID_RAZA';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_RAZA' => 'int',
 		'BONIFICACION_VIDA' => 'int',
 		'BONIFICACION_MANA' => 'int',
 		'BONIFICACION_FUERZA' => 'int',

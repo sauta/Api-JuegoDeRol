@@ -28,11 +28,9 @@ class Casa extends Model
 {
 	protected $table = 'casas';
 	protected $primaryKey = 'ID_CASA';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_CASA' => 'int',
 		'ID_LIDER' => 'int',
 		'ID_UBICACION' => 'int'
 	];

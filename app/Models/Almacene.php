@@ -25,11 +25,9 @@ class Almacene extends Model
 {
 	protected $table = 'almacenes';
 	protected $primaryKey = 'ID_ALMACEN';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_ALMACEN' => 'int',
 		'CAPACIDAD' => 'int',
 		'ID_TRANSPORTE' => 'int'
 	];

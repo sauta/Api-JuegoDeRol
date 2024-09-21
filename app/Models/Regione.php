@@ -26,11 +26,9 @@ class Regione extends Model
 {
 	protected $table = 'regiones';
 	protected $primaryKey = 'ID_REGION';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_REGION' => 'int',
 		'CAPITAL_REGION' => 'int',
 		'ID_PAIS' => 'int'
 	];

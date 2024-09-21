@@ -38,11 +38,9 @@ class Arma extends Model
 {
 	protected $table = 'armas';
 	protected $primaryKey = 'ID_ARMA';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_ARMA' => 'int',
 		'DANO' => 'int',
 		'ID_ARMA_CONSUMIBLE' => 'int',
 		'CARGA' => 'int',

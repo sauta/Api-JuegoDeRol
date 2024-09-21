@@ -25,12 +25,7 @@ class TiposDeTransporte extends Model
 {
 	protected $table = 'tipos_de_transporte';
 	protected $primaryKey = 'ID_TIPO_TRANSPORTE';
-	public $incrementing = false;
 	public $timestamps = false;
-
-	protected $casts = [
-		'ID_TIPO_TRANSPORTE' => 'int'
-	];
 
 	protected $fillable = [
 		'TIPO',

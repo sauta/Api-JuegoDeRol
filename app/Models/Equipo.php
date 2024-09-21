@@ -28,11 +28,9 @@ class Equipo extends Model
 {
 	protected $table = 'equipos';
 	protected $primaryKey = 'ID_EQUIPO';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_EQUIPO' => 'int',
 		'FECHA_CREACION' => 'datetime',
 		'FECHA_DISOLUCION' => 'datetime',
 		'ID_LIDER' => 'int'

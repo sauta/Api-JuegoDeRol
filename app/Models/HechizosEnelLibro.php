@@ -25,11 +25,9 @@ class HechizosEnelLibro extends Model
 {
 	protected $table = 'hechizos_enel_libro';
 	protected $primaryKey = 'ID_HECHIZO_ENEL_LIBRO';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_HECHIZO_ENEL_LIBRO' => 'int',
 		'ID_LIBRO' => 'int',
 		'ID_HECHIZO' => 'int',
 		'NIVEL_REQUERIDO' => 'int'

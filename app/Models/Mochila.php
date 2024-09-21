@@ -28,11 +28,9 @@ class Mochila extends Model
 {
 	protected $table = 'mochilas';
 	protected $primaryKey = 'ID_MOCHILA';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_MOCHILA' => 'int',
 		'ID_PERSONAJE' => 'int',
 		'CAPACIDAD' => 'int'
 	];

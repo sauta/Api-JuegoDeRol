@@ -11,10 +11,10 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Class PersonajesEnEquipo
  * 
- * @property int|null $ID_EQUIPO
+ * @property int $ID_EQUIPO
  * @property int|null $ID_PERSONAJE
  * 
- * @property Equipo|null $equipo
+ * @property Equipo $equipo
  * @property Personaje|null $personaje
  *
  * @package App\Models
@@ -22,16 +22,14 @@ use Illuminate\Database\Eloquent\Model;
 class PersonajesEnEquipo extends Model
 {
 	protected $table = 'personajes_en_equipo';
-	public $incrementing = false;
+	protected $primaryKey = 'ID_EQUIPO';
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_EQUIPO' => 'int',
 		'ID_PERSONAJE' => 'int'
 	];
 
 	protected $fillable = [
-		'ID_EQUIPO',
 		'ID_PERSONAJE'
 	];
 

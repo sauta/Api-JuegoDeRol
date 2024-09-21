@@ -25,11 +25,9 @@ class Bodega extends Model
 {
 	protected $table = 'bodegas';
 	protected $primaryKey = 'ID_BODEGA';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_BODEGA' => 'int',
 		'ID_HOGAR' => 'int',
 		'CAPACIDAD' => 'int'
 	];

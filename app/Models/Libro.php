@@ -29,11 +29,9 @@ class Libro extends Model
 {
 	protected $table = 'libros';
 	protected $primaryKey = 'ID_LIBRO';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_LIBRO' => 'int',
 		'ID_AUTOR' => 'int'
 	];
 

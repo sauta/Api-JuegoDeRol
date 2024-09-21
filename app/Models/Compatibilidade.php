@@ -26,11 +26,9 @@ class Compatibilidade extends Model
 {
 	protected $table = 'compatibilidades';
 	protected $primaryKey = 'ID_COMPATIBILIDAD';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_COMPATIBILIDAD' => 'int',
 		'ID_CLASE' => 'int',
 		'ID_RAZA' => 'int'
 	];

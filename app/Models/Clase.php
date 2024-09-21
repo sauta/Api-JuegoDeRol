@@ -35,11 +35,9 @@ class Clase extends Model
 {
 	protected $table = 'clases';
 	protected $primaryKey = 'ID_CLASE';
-	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_CLASE' => 'int',
 		'BONIFICACION_VIDA' => 'int',
 		'BONIFICACION_MANA' => 'int',
 		'BONIFICACION_FUERZA' => 'int',
