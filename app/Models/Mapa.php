@@ -41,6 +41,6 @@ class Mapa extends Model
 
 	public function paises()
 	{
-		return $this->hasMany(Paise::class, 'ID_MAPA');
+		return $this->hasMany(Pais::class, 'ID_MAPA');
 	}
 }

@@ -22,7 +22,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Posione extends Model
+class Posion extends Model
 {
 	protected $table = 'posiones';
 	protected $primaryKey = 'ID_POSION';

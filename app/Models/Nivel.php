@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class Nivele
+ * Class Nivel
  * 
  * @property int $ID_NIVEL
  * @property string $NIVEL
@@ -21,7 +21,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Nivele extends Model
+class Nivel extends Model
 {
 	protected $table = 'niveles';
 	protected $primaryKey = 'ID_NIVEL';

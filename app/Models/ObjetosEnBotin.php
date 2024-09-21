@@ -9,37 +9,37 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class ObjetosEnAlmacene
+ * Class ObjetosEnBotine
  * 
  * @property string|null $ID_OBJETO
- * @property int|null $ID_ALMACEN
- * @property int|null $CANTIDAD
+ * @property int|null $ID_BOTIN
+ * @property int $CANTIDAD
  * 
- * @property Almacene|null $almacene
+ * @property Botine|null $botine
  * @property Objeto|null $objeto
  *
  * @package App\Models
  */
-class ObjetosEnAlmacene extends Model
+class ObjetosEnBotine extends Model
 {
-	protected $table = 'objetos_en_almacenes';
+	protected $table = 'objetos_en_botines';
 	public $incrementing = false;
 	public $timestamps = false;
 
 	protected $casts = [
-		'ID_ALMACEN' => 'int',
+		'ID_BOTIN' => 'int',
 		'CANTIDAD' => 'int'
 	];
 
 	protected $fillable = [
 		'ID_OBJETO',
-		'ID_ALMACEN',
+		'ID_BOTIN',
 		'CANTIDAD'
 	];
 
-	public function almacene()
+	public function botine()
 	{
-		return $this->belongsTo(Almacene::class, 'ID_ALMACEN');
+		return $this->belongsTo(Botin::class, 'ID_BOTIN');
 	}
 
 	public function objeto()

@@ -44,7 +44,7 @@ class MisionesEnCurso extends Model
 
 	public function misione()
 	{
-		return $this->belongsTo(Misione::class, 'ID_MISION');
+		return $this->belongsTo(Mision::class, 'ID_MISION');
 	}
 
 	public function personaje()

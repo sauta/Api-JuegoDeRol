@@ -24,7 +24,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Mochila extends Model
+class Mochila extends Objeto
 {
 	protected $table = 'mochilas';
 	protected $primaryKey = 'ID_MOCHILA';

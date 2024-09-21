@@ -33,7 +33,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Hogare extends Model
+class Hogar extends Model
 {
 	protected $table = 'hogares';
 	protected $primaryKey = 'ID_HOGAR';
@@ -72,7 +72,7 @@ class Hogare extends Model
 
 	public function ubicacione()
 	{
-		return $this->belongsTo(Ubicacione::class, 'ID_UBICACION');
+		return $this->belongsTo(Ubicacion::class, 'ID_UBICACION');
 	}
 
 	public function bodegas()

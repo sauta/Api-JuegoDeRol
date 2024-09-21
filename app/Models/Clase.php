@@ -68,7 +68,7 @@ class Clase extends Model
 
 	public function compatibilidades()
 	{
-		return $this->hasMany(Compatibilidade::class, 'ID_CLASE');
+		return $this->hasMany(Compatibilidad::class, 'ID_CLASE');
 	}
 
 	public function personajes()

@@ -23,7 +23,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Botine extends Model
+class Botin extends Model
 {
 	protected $table = 'botines';
 	protected $primaryKey = 'ID_BOTIN';
@@ -42,7 +42,7 @@ class Botine extends Model
 
 	public function misione()
 	{
-		return $this->belongsTo(Misione::class, 'ID_MISION');
+		return $this->belongsTo(Mision::class, 'ID_MISION');
 	}
 
 	public function objetos()

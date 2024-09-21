@@ -22,7 +22,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Compatibilidade extends Model
+class Compatibilidad extends Model
 {
 	protected $table = 'compatibilidades';
 	protected $primaryKey = 'ID_COMPATIBILIDAD';

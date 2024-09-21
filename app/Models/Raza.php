@@ -68,7 +68,7 @@ class Raza extends Model
 
 	public function compatibilidades()
 	{
-		return $this->hasMany(Compatibilidade::class, 'ID_RAZA');
+		return $this->hasMany(Compatibilidad::class, 'ID_RAZA');
 	}
 
 	public function personajes()

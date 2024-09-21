@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Misione;
+use App\Models\Material;
 use Illuminate\Http\Request;
 
-class MisioneController extends Controller
+class MaterialController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class MisioneController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Misione $misione)
+    public function show(Material $Material)
     {
         //
     }
@@ -42,7 +42,7 @@ class MisioneController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Misione $misione)
+    public function edit(Material $Material)
     {
         //
     }
@@ -50,7 +50,7 @@ class MisioneController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Misione $misione)
+    public function update(Request $request, Material $Material)
     {
         //
     }
@@ -58,7 +58,7 @@ class MisioneController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Misione $misione)
+    public function destroy(Material $Material)
     {
         //
     }

@@ -22,7 +22,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Regione extends Model
+class Region extends Model
 {
 	protected $table = 'regiones';
 	protected $primaryKey = 'ID_REGION';
@@ -41,7 +41,7 @@ class Regione extends Model
 
 	public function paise()
 	{
-		return $this->belongsTo(Paise::class, 'ID_PAIS');
+		return $this->belongsTo(Pais::class, 'ID_PAIS');
 	}
 
 	public function provincias()

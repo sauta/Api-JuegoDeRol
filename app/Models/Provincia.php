@@ -41,7 +41,7 @@ class Provincia extends Model
 
 	public function regione()
 	{
-		return $this->belongsTo(Regione::class, 'ID_REGION');
+		return $this->belongsTo(Region::class, 'ID_REGION');
 	}
 
 	public function ciudades_o_comunas()

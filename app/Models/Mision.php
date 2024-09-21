@@ -30,7 +30,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Misione extends Model
+class Mision extends Objeto
 {
 	protected $table = 'misiones';
 	protected $primaryKey = 'ID_MISION';
@@ -64,12 +64,12 @@ class Misione extends Model
 
 	public function ubicacione()
 	{
-		return $this->belongsTo(Ubicacione::class, 'ID_UBICACION');
+		return $this->belongsTo(Ubicacion::class, 'ID_UBICACION');
 	}
 
 	public function botines()
 	{
-		return $this->hasMany(Botine::class, 'ID_MISION');
+		return $this->hasMany(Botin::class, 'ID_MISION');
 	}
 
 	public function misiones_en_curso()

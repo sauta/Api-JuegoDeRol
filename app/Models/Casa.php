@@ -45,7 +45,7 @@ class Casa extends Model
 
 	public function ubicacione()
 	{
-		return $this->belongsTo(Ubicacione::class, 'ID_UBICACION');
+		return $this->belongsTo(Ubicacion::class, 'ID_UBICACION');
 	}
 
 	public function personajes()

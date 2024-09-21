@@ -30,7 +30,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Armadura extends Model
+class Armadura extends Objeto
 {
 	protected $table = 'armaduras';
 	protected $primaryKey = 'ID_ARMADURA';

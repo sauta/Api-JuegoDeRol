@@ -34,7 +34,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Arma extends Model
+class Arma extends Objeto
 {
 	protected $table = 'armas';
 	protected $primaryKey = 'ID_ARMA';

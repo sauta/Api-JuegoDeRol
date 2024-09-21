@@ -161,12 +161,12 @@ class Personaje extends Model
 
 	public function hogare()
 	{
-		return $this->belongsTo(Hogare::class, 'ID_HOGAR');
+		return $this->belongsTo(Hogar::class, 'ID_HOGAR');
 	}
 
 	public function nivele()
 	{
-		return $this->belongsTo(Nivele::class, 'ID_NIVEL');
+		return $this->belongsTo(Nivel::class, 'ID_NIVEL');
 	}
 
 	public function raza()
@@ -186,7 +186,7 @@ class Personaje extends Model
 
 	public function ubicacione()
 	{
-		return $this->belongsTo(Ubicacione::class, 'ID_UBICACION');
+		return $this->belongsTo(Ubicacion::class, 'ID_UBICACION');
 	}
 
 	public function conocimiento()

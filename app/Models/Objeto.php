@@ -59,7 +59,7 @@ class Objeto extends Model
 
 	public function materiale()
 	{
-		return $this->belongsTo(Materiale::class, 'ID_MATERIAL');
+		return $this->belongsTo(Material::class, 'ID_MATERIAL');
 	}
 
 	public function armaduras()
@@ -84,7 +84,7 @@ class Objeto extends Model
 
 	public function misiones()
 	{
-		return $this->hasMany(Misione::class, 'ID_OBJETO');
+		return $this->hasMany(Mision::class, 'ID_OBJETO');
 	}
 
 	public function mochilas()
@@ -95,7 +95,7 @@ class Objeto extends Model
 
 	public function almacenes()
 	{
-		return $this->belongsToMany(Almacene::class, 'objetos_en_almacenes', 'ID_OBJETO', 'ID_ALMACEN')
+		return $this->belongsToMany(Almacen::class, 'objetos_en_almacenes', 'ID_OBJETO', 'ID_ALMACEN')
 					->withPivot('CANTIDAD');
 	}
 
@@ -107,7 +107,7 @@ class Objeto extends Model
 
 	public function botines()
 	{
-		return $this->belongsToMany(Botine::class, 'objetos_en_botines', 'ID_OBJETO', 'ID_BOTIN')
+		return $this->belongsToMany(Botin::class, 'objetos_en_botines', 'ID_OBJETO', 'ID_BOTIN')
 					->withPivot('CANTIDAD');
 	}
 
@@ -125,7 +125,7 @@ class Objeto extends Model
 
 	public function posiones()
 	{
-		return $this->hasMany(Posione::class, 'ID_OBJETO');
+		return $this->hasMany(Posion::class, 'ID_OBJETO');
 	}
 
 	public function transportes()

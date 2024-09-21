@@ -55,6 +55,6 @@ class CiudadesOComuna extends Model
 
 	public function ubicaciones()
 	{
-		return $this->hasMany(Ubicacione::class, 'ID_CIUDAD');
+		return $this->hasMany(Ubicacion::class, 'ID_CIUDAD');
 	}
 }

@@ -23,7 +23,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Paise extends Model
+class Pais extends Model
 {
 	protected $table = 'paises';
 	protected $primaryKey = 'ID_PAIS';
@@ -48,6 +48,6 @@ class Paise extends Model
 
 	public function regiones()
 	{
-		return $this->hasMany(Regione::class, 'ID_PAIS');
+		return $this->hasMany(Region::class, 'ID_PAIS');
 	}
 }

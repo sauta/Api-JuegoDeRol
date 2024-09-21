@@ -37,7 +37,7 @@ class ArmaUsablePor extends Model
 
 	public function compatibilidade()
 	{
-		return $this->belongsTo(Compatibilidade::class, 'ID_COMPATIBILIDAD');
+		return $this->belongsTo(Compatibilidad::class, 'ID_COMPATIBILIDAD');
 	}
 
 	public function tipo_de_arma()

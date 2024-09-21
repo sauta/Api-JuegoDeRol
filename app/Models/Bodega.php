@@ -39,7 +39,7 @@ class Bodega extends Model
 
 	public function hogare()
 	{
-		return $this->belongsTo(Hogare::class, 'ID_HOGAR');
+		return $this->belongsTo(Hogar::class, 'ID_HOGAR');
 	}
 
 	public function objetos()

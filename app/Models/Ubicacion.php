@@ -32,7 +32,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Ubicacione extends Model
+class Ubicacion extends Model
 {
 	protected $table = 'ubicaciones';
 	protected $primaryKey = 'ID_UBICACION';
@@ -74,12 +74,12 @@ class Ubicacione extends Model
 
 	public function hogares()
 	{
-		return $this->hasMany(Hogare::class, 'ID_UBICACION');
+		return $this->hasMany(Hogar::class, 'ID_UBICACION');
 	}
 
 	public function misiones()
 	{
-		return $this->hasMany(Misione::class, 'ID_UBICACION');
+		return $this->hasMany(Mision::class, 'ID_UBICACION');
 	}
 
 	public function personajes()
