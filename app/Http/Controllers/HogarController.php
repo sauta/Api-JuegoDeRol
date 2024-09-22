@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\ObjetosEnBotine;
+use App\Models\Hogar;
 use Illuminate\Http\Request;
 
-class ObjetosEnBotineController extends Controller
+class HogarController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class ObjetosEnBotineController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(ObjetosEnBotine $objetosEnBotine)
+    public function show(Hogar $hogar)
     {
         //
     }
@@ -42,7 +42,7 @@ class ObjetosEnBotineController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(ObjetosEnBotine $objetosEnBotine)
+    public function edit(Hogar $hogar)
     {
         //
     }
@@ -50,7 +50,7 @@ class ObjetosEnBotineController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, ObjetosEnBotine $objetosEnBotine)
+    public function update(Request $request, Hogar $hogar)
     {
         //
     }
@@ -58,7 +58,7 @@ class ObjetosEnBotineController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(ObjetosEnBotine $objetosEnBotine)
+    public function destroy(Hogar $hogar)
     {
         //
     }

@@ -22,7 +22,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App\Models
  */
-class Mapa extends Model
+class Mapa extends Objeto
 {
 	protected $table = 'mapas';
 	protected $primaryKey = 'ID_MAPA';

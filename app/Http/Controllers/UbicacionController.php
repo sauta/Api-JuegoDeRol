@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Nivele;
+use App\Models\Ubicacion;
 use Illuminate\Http\Request;
 
-class NiveleController extends Controller
+class UbicacionController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class NiveleController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Nivele $nivele)
+    public function show(Ubicacion $ubicacion)
     {
         //
     }
@@ -42,7 +42,7 @@ class NiveleController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Nivele $nivele)
+    public function edit(Ubicacion $ubicacion)
     {
         //
     }
@@ -50,7 +50,7 @@ class NiveleController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Nivele $nivele)
+    public function update(Request $request, Ubicacion $ubicacion)
     {
         //
     }
@@ -58,7 +58,7 @@ class NiveleController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Nivele $nivele)
+    public function destroy(Ubicacion $ubicacion)
     {
         //
     }

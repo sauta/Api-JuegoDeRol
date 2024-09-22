@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\NombreDelModelo;
+use App\Models\Almacen;
 use Illuminate\Http\Request;
 
-class NombreDelModeloController extends Controller
+class AlmacenController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class NombreDelModeloController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(NombreDelModelo $nombreDelModelo)
+    public function show(Almacen $almacen)
     {
         //
     }
@@ -42,7 +42,7 @@ class NombreDelModeloController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(NombreDelModelo $nombreDelModelo)
+    public function edit(Almacen $almacen)
     {
         //
     }
@@ -50,7 +50,7 @@ class NombreDelModeloController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, NombreDelModelo $nombreDelModelo)
+    public function update(Request $request, Almacen $almacen)
     {
         //
     }
@@ -58,7 +58,7 @@ class NombreDelModeloController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(NombreDelModelo $nombreDelModelo)
+    public function destroy(Almacen $almacen)
     {
         //
     }

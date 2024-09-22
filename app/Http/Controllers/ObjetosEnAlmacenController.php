@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Compatibilidade;
+use App\Models\ObjetosEnAlmacen;
 use Illuminate\Http\Request;
 
-class CompatibilidadeController extends Controller
+class ObjetosEnAlmacenController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class CompatibilidadeController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Compatibilidade $compatibilidade)
+    public function show(ObjetosEnAlmacen $objetosEnAlmacen)
     {
         //
     }
@@ -42,7 +42,7 @@ class CompatibilidadeController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Compatibilidade $compatibilidade)
+    public function edit(ObjetosEnAlmacen $objetosEnAlmacen)
     {
         //
     }
@@ -50,7 +50,7 @@ class CompatibilidadeController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Compatibilidade $compatibilidade)
+    public function update(Request $request, ObjetosEnAlmacen $objetosEnAlmacen)
     {
         //
     }
@@ -58,7 +58,7 @@ class CompatibilidadeController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Compatibilidade $compatibilidade)
+    public function destroy(ObjetosEnAlmacen $objetosEnAlmacen)
     {
         //
     }

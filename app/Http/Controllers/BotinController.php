@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Ubicacione;
+use App\Models\Botin;
 use Illuminate\Http\Request;
 
-class UbicacioneController extends Controller
+class BotinController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class UbicacioneController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Ubicacione $ubicacione)
+    public function show(Botin $botin)
     {
         //
     }
@@ -42,7 +42,7 @@ class UbicacioneController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Ubicacione $ubicacione)
+    public function edit(Botin $botin)
     {
         //
     }
@@ -50,7 +50,7 @@ class UbicacioneController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Ubicacione $ubicacione)
+    public function update(Request $request, Botin $botin)
     {
         //
     }
@@ -58,7 +58,7 @@ class UbicacioneController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Ubicacione $ubicacione)
+    public function destroy(Botin $botin)
     {
         //
     }

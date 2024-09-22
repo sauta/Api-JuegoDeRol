@@ -34,7 +34,7 @@ class MisionController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Mision $Mision)
+    public function show(Mision $mision)
     {
         //
     }
@@ -42,7 +42,7 @@ class MisionController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Mision $Mision)
+    public function edit(Mision $mision)
     {
         //
     }
@@ -50,7 +50,7 @@ class MisionController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Mision $Mision)
+    public function update(Request $request, Mision $mision)
     {
         //
     }
@@ -58,7 +58,7 @@ class MisionController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Mision $Mision)
+    public function destroy(Mision $mision)
     {
         //
     }

@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Hogare;
+use App\Models\ObjetosEnBotin;
 use Illuminate\Http\Request;
 
-class HogareController extends Controller
+class ObjetosEnBotinController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class HogareController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Hogare $hogare)
+    public function show(ObjetosEnBotin $objetosEnBotin)
     {
         //
     }
@@ -42,7 +42,7 @@ class HogareController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Hogare $hogare)
+    public function edit(ObjetosEnBotin $objetosEnBotin)
     {
         //
     }
@@ -50,7 +50,7 @@ class HogareController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Hogare $hogare)
+    public function update(Request $request, ObjetosEnBotin $objetosEnBotin)
     {
         //
     }
@@ -58,7 +58,7 @@ class HogareController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Hogare $hogare)
+    public function destroy(ObjetosEnBotin $objetosEnBotin)
     {
         //
     }

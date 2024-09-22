@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Paise;
+use App\Models\Posion;
 use Illuminate\Http\Request;
 
-class PaiseController extends Controller
+class PosionController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class PaiseController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Paise $paise)
+    public function show(Posion $posion)
     {
         //
     }
@@ -42,7 +42,7 @@ class PaiseController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Paise $paise)
+    public function edit(Posion $posion)
     {
         //
     }
@@ -50,7 +50,7 @@ class PaiseController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Paise $paise)
+    public function update(Request $request, Posion $posion)
     {
         //
     }
@@ -58,7 +58,7 @@ class PaiseController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Paise $paise)
+    public function destroy(Posion $posion)
     {
         //
     }

@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\ObjetosEnAlmacene;
+use App\Models\Nivel;
 use Illuminate\Http\Request;
 
-class ObjetosEnAlmaceneController extends Controller
+class NivelController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class ObjetosEnAlmaceneController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(ObjetosEnAlmacene $objetosEnAlmacene)
+    public function show(Nivel $nivel)
     {
         //
     }
@@ -42,7 +42,7 @@ class ObjetosEnAlmaceneController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(ObjetosEnAlmacene $objetosEnAlmacene)
+    public function edit(Nivel $nivel)
     {
         //
     }
@@ -50,7 +50,7 @@ class ObjetosEnAlmaceneController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, ObjetosEnAlmacene $objetosEnAlmacene)
+    public function update(Request $request, Nivel $nivel)
     {
         //
     }
@@ -58,7 +58,7 @@ class ObjetosEnAlmaceneController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(ObjetosEnAlmacene $objetosEnAlmacene)
+    public function destroy(Nivel $nivel)
     {
         //
     }

@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Regione;
+use App\Models\Compatibilidad;
 use Illuminate\Http\Request;
 
-class RegioneController extends Controller
+class CompatibilidadController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class RegioneController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Regione $regione)
+    public function show(Compatibilidad $compatibilidad)
     {
         //
     }
@@ -42,7 +42,7 @@ class RegioneController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Regione $regione)
+    public function edit(Compatibilidad $compatibilidad)
     {
         //
     }
@@ -50,7 +50,7 @@ class RegioneController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Regione $regione)
+    public function update(Request $request, Compatibilidad $compatibilidad)
     {
         //
     }
@@ -58,7 +58,7 @@ class RegioneController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Regione $regione)
+    public function destroy(Compatibilidad $compatibilidad)
     {
         //
     }
